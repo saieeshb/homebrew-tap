@@ -1,8 +1,8 @@
 class CcExporter < Formula
   desc "Export Claude Code chats in full detail to Markdown, HTML or JSON"
   homepage "https://github.com/saieeshb/cc-exporter"
-  url "https://github.com/saieeshb/cc-exporter/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "c8a1126c8819f4849f0332d423c7a6623e50b8a092a9f27c6d7d59b1dee6faed"
+  url "https://github.com/saieeshb/cc-exporter/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "485572c86e56a73bc45732b3e093d1be18436d1982fae6a65e72713e92775b88"
   license "MIT"
 
   depends_on "node"
