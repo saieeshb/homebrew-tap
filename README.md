@@ -3,7 +3,9 @@
 Homebrew formulae by [@saieeshb](https://github.com/saieeshb).
 
 ```bash
-brew install saieeshb/tap/cc-exporter
+brew tap saieeshb/tap
+brew trust saieeshb/tap   # newer Homebrew asks you to trust third-party taps once
+brew install cc-exporter
 ```
 
 | Formula | What it is |

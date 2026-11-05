@@ -11,7 +11,7 @@ class CcExporter < Formula
     libexec.install Dir["*"]
     (bin/"cc-exporter").write <<~SH
       #!/bin/bash
-      exec "#{Formula["node"].opt_bin}/node" "#{libexec}/bin/cc-exporter.mjs" "$@"
+      exec "#{formula_opt_bin("node")}/node" "#{libexec}/bin/cc-exporter.mjs" "$@"
     SH
   end
 
